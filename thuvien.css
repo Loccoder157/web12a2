@@ -207,3 +207,15 @@
     }
 
 }
+
+@media (hover: none) {
+  #anhtest1:hover,
+  #anhtest2:hover,
+  #anhtest3:hover,
+  #anhtest4:hover,
+  #anhtest5:hover,
+  #anhtest6:hover {
+      box-shadow: none;
+      transform: translateX(-50%) scale(1);
+  }
+}
