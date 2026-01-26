@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nienkhoa {
+    width: 25%;
+    height: 50vh;
+    background-image: url("../asset/backgroundcloud.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+}
+
+#nienkhoa h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    color: black;
+    padding-top: 12vw;
+    padding-right: 3vw;
+}
+
+#tatca {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../asset/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+#hathieuung {
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+#nutbam {
+    display: flex;
+    gap: 7vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40vw;
+    z-index: 0;
+}
+
+#nutbam a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.3vw 1.3vw;
+    transition: 0.2s ease;
+}
+#nutbam a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+#thongtin {
+    display: inline-block;
+    background: linear-gradient(135deg, rgb(40, 5, 180), rgb(200, 4, 93));
+    border-radius: 50px;
+    font-size: 3vw;
+}
+
+#danhsach {
+    display: inline-block;
+    background: linear-gradient(135deg, rgb(7, 86, 160), rgb(153, 8, 131));
+    border-radius: 50px;
+    font-size: 3vw;
+}
+
+#thuvien {
+    display: inline-block;
+    background: linear-gradient(135deg, rgb(8, 147, 216), rgb(207, 12, 194));
+    border-radius: 50px;
+    font-size: 3vw;
+}
+
+#nutamthanh {
+    position: fixed;
+    left: 1vw;
+    top: 1vw;
+}
+
+#nutamthanh img:hover {
+    transform: scale(1.1);
+}
