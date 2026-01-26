@@ -4,12 +4,12 @@ const nutamthanh = document.getElementById("nutamthanha");
 const amthanh = document.getElementById("amthanh");
 const thaydoiamthanh =()=> {
     if (!tatam) {
-        nutamthanh.src = "../asset/soundoff.png"
+        nutamthanh.src = "asset/soundoff.png"
         amthanh.muted = true;
         tatam = !tatam;
     }else {
-        nutamthanh.src = "../asset/soundon.png"
-        amthanh.src = "../asset/nhacnen.mp3"
+        nutamthanh.src = "asset/soundon.png"
+        amthanh.src = "asset/nhacnen.mp3"
         amthanh.muted = false;
         amthanh.play();
         tatam = !tatam;
