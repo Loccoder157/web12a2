@@ -7,7 +7,7 @@
 #nienkhoa {
     width: 25%;
     height: 50vh;
-    background-image: url("../asset/backgroundcloud.png");
+    background-image: url("asset/backgroundcloud.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url("../asset/background.png");
+    background-image: url("asset/background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
