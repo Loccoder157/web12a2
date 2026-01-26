@@ -206,33 +206,4 @@
         transition: 0.2s ease;
     }
 
-    #anhtest1:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-        transform: translateX(-50%) scale(1.1);
-    }
-
-    #anhtest2:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-        transform: translateX(-50%) scale(1.1);
-    }
-
-    #anhtest3:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-        transform: translateX(-50%) scale(1.1);
-    }
-
-    #anhtest4:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-        transform: translateX(-50%) scale(1.1);
-    }
-
-    #anhtest5:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-        transform: translateX(-50%) scale(1.1);
-    }
-
-    #anhtest6:hover {
-        box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
-        transform: translateX(-50%) scale(1.1);
-    }
 }
