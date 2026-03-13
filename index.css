@@ -1,46 +1,8 @@
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 
-#nienkhoaPC {
-    width: 25%;
-    height: 50vh;
-    background-image: url("asset/backgroundcloud.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    position: absolute;
-    top: 5%;
-    right: 1%;
-}
-
-#nienkhoaDT {
-    display: none;
-}
-
-#nienkhoaPC h5 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2vw;
-    color: black;
-    padding-top: 12vw;
-    padding-right: 3vw;
-}
-
-#tatca {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url("asset/background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 2;
-}
 #hathieuung {
     position: fixed;
     inset: 0;
@@ -48,164 +10,141 @@
     pointer-events: none;
 }
 
-#nutbam {
-    display: flex;
-    gap: 7vh;
-    align-items: center;
-    justify-content: center;
-    padding-top: 80vh;
-    z-index: 0;
+#tatca {
+    border: #000000 solid;
 }
 
-#nutbam a {
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    align-items: center;
-    justify-content: center;
+#tieude {
+    background-color: rgb(152, 203, 203);
+   
+}
+
+#tieude h1 {
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#noidungtieude-1 {
+    color: rgb(10, 25, 34);
+}
+
+#noidungtieude-2 {
+    color:  #154279;
     text-align: center;
-    padding: 0.3vw 1.3vw;
+}
+
+#noidungtieude-3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    text-align: end;
+    padding-right: 4vw;
+    color: #1b262c;
+}
+
+#noidung {
+    background-color: rgb(213, 232, 232);
+    height: 70vh;
+    display: flex;
+    justify-content: center; 
+    gap: 10%;          
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;   
+}
+
+#tongket {
+    background-color: rgb(196, 255, 255);
+}
+
+#tongket p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#noidung a img {
+    margin-top: 10vw;
+}
+#noidung h3 {
+    margin-top: 2vw;
+}
+
+
+
+#thongtin img {
+    width: 20vw;
+    height: auto;
     transition: 0.2s ease;
 }
-#nutbam a:hover {
+
+#danhsachthanhvien img {
+    width: 20vw;
+    height: auto;
+    transition: 0.2s ease;
+
+}
+
+#thuvien img {
+    width: 20vw;
+    height: auto;
+    transition: 0.2s ease;  
+}
+
+#thongtin img:hover,
+#danhsachthanhvien img:hover,
+#thuvien img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
 }
 
-#thongtin {
-    display: inline-block;
-    background: linear-gradient(135deg, rgb(40, 5, 180), rgb(200, 4, 93));
-    border-radius: 50px;
-    font-size: 3vw;
-}
-
-#danhsach {
-    display: inline-block;
-    background: linear-gradient(135deg, rgb(7, 86, 160), rgb(153, 8, 131));
-    border-radius: 50px;
-    font-size: 3vw;
-}
-
-#thuvien {
-    display: inline-block;
-    background: linear-gradient(135deg, rgb(8, 147, 216), rgb(207, 12, 194));
-    border-radius: 50px;
-    font-size: 3vw;
-}
-
-#nutamthanh {
-    position: fixed;
-    left: 1vw;
-    top: 1vw;
-}
-
-#nutamthanh img:hover {
-    transform: scale(1.1);
-}
-
-@media (max-width: 500px    ) {
+@media (max-width: 500px) {
     * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+        padding: 0;
+        margin: 0;
     }
 
-    html, body {
-        height: 100%;
-        overflow: hidden;
-    }
-
-    #nienkhoaPC {
-        display: none   ;
-    }
-
-    #nienkhoaDT {
-        width: 100%;
-        height: 40vh;
-        background-image: url("asset/backgroundcloud.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    #noidung {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: column;
+        gap: 5%;   
     }
 
-    #nienkhoaDT h5 {
-        font-family: Arial, Helvetica, sans-serif;
+    #thongtin img {
+    width: 50vw;
+    height: auto;
+    }
+
+    #danhsachthanhvien img {
+        width: 50vw;
+        height: auto;
+
+    }
+
+    #thuvien img {
+        width: 50vw;
+        height: auto;
+    }
+    #noidung {
+        height: 120vh;
+    }
+    #tongket p {
+        font-size: 4vw;
+    }
+
+    #tieude {
+    background-color: rgb(152, 203, 203);
+   
+    }
+
+    #tieude h1 {
         font-size: 6vw;
-        color: black;
-        padding-left: 10vw;
+        font-family: 'Times New Roman', Times, serif;
     }
+    #noidungtieude-3 {
+        font-size: 4vw;
+    }
+}
 
-    #tatca {
-        position: relative;
-        width: 100%;
-        height: 100svh;
-        background: linear-gradient(135deg, rgb(118, 192, 230), rgb(239, 123, 232));
-        z-index: 2;
-    }
-    #hathieuung {
-        position: fixed;
-        inset: 0;
-        z-index: 1;
-        pointer-events: none;
-    }
-
-    #nutbam {
-        display: grid;
-        gap: 2vh;
-        align-items: center;
-        justify-content: center;
-        padding-top: 35vw;
-        z-index: 0;
-        transform: scale(2);
-    }
-
-    #nutbam a {
-        display: inline-block;
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0.3vw 1.3vw;
-        transition: 0.2s ease;
-    }
-    #nutbam a:hover {
-        transform: scale(1.1);
-        box-shadow: 0 0 15px rgba(0,0,0,0.3);
-    }
-
-    #thongtin {
-        display: inline-block;
-        background: linear-gradient(135deg, rgb(40, 5, 180), rgb(200, 4, 93));
-        border-radius: 50px;
-        font-size: 3vw;
-    }
-
-    #danhsach {
-        display: inline-block;
-        background: linear-gradient(135deg, rgb(7, 86, 160), rgb(153, 8, 131));
-        border-radius: 50px;
-        font-size: 3vw;
-    }
-
-    #thuvien {
-        display: inline-block;
-        background: linear-gradient(135deg, rgb(8, 147, 216), rgb(207, 12, 194));
-        border-radius: 50px;
-        font-size: 3vw;
-    }
-
-    #nutamthanh {
-        position: fixed;
-        left: 1vw;
-        top: 1vw;
-    }
-
-    #nutamthanh img:hover {
-        transform: scale(1.1);
-    }
+@media (hover: none) {
 
 }
