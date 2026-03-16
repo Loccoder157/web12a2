@@ -61,3 +61,38 @@ body {
     height: 50vh;
     width: auto;
 }
+@media (max-width: 500px) {
+
+    #thongtintruong {
+        margin-top: 10%;
+        display: block;
+    }
+
+    #thongtintruong img {
+        display: block;
+        height: auto;
+        width: 50vw;
+        margin: auto;
+    }
+
+    #thongtinlop {
+        margin-top: 10%;
+        display: block;
+    }
+
+    #thongtinlop img {
+        display: block;
+        height: auto;
+        width: 50vw;
+        margin: auto;
+    }
+
+    #thongtinlop p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    }
+    #thongtintruong p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    }
+}
