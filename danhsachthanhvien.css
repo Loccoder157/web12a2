@@ -173,36 +173,9 @@ h1 {
 }
 
 
-@media (max-width: 900px) {
-    #danhsach {
-        padding: 20x;
-    }
 
-    #danhsachthanhvien li {
-        flex-wrap: wrap;
-    }
 
-    #danhsachthanhvien li span {
-        max-width: 100%;
-        white-space: normal;
-    }
-
-    #danhsachthanhvien li > div {
-        width: 100%;
-        left: 0;
-        right: 0;
-        top: calc(100% + 8px);
-        transform: translateX(0);
-        position: relative;
-    }
-
-    #danhsachthanhvien li > div > div:last-child {
-        grid-template-columns: 1fr ;
-        white-space:normal;
-    }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     #danhsach {
         padding: 15px;
     }
